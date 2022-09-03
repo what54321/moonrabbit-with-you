@@ -1,0 +1,26 @@
+<view class="back">
+<image class="bg" src="../../images/gamegroundtwo.jpg"></image>
+<image class="yt" src="../../images/5.png"></image>
+
+<view class="result">
+<text wx:if="{{isbigger}}">再大点！</text>
+<text wx:if="{{issmaller}}">再小点！</text>
+<text wx:if="{{isit}}">就是它！</text>
+</view>
+</view>
+
+<view class="weikai">
+ <button bindtap="initnum" wx:if="{{!isbegin&&!isit}}">开始猜数吧！</button>
+</view>
+
+<form>
+<view class="shuru" wx:if="{{isbegin&&!isbigger&&!issmaller}}">
+    <input bindchange="guess" type='text'placeholder=' 输入一个0-100的数' ></input>
+    <button form-type="reset">猜一猜</button>
+</view>
+</form>
+
+
+
+
+

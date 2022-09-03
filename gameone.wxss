@@ -1,0 +1,49 @@
+.bg{
+    width:100%;
+    height: 100%;
+    position:fixed;
+    background-size: 100% 100%;
+    z-index:-1;
+}
+.yt{
+    
+    width:150px;
+    height: 150px;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.ytsele{
+    width:70px;
+    height: 70px;
+    margin-left: 40px;
+}
+
+.result{
+    font-size: 5mm;
+    font-style:initial;
+    color:#ffffaa;
+    margin-left:130px;
+    margin-top:50px;
+}
+
+.shitou{
+    width:70px;
+    height: 70px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.jiandao{
+    width:70px;
+    height: 70px;
+    margin-left: 10px;
+}
+.bu{
+    width:70px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+
+
+

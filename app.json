@@ -1,0 +1,33 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/game/game",
+    "pages/gameone/gameone",
+    "pages/gametwo/gametwo"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#FFFF99",
+    "navigationBarTitleText": "月兔的回答",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "tabBar": {
+    "backgroundColor": "#FFFFAA",
+    "color": "#929292",
+    "selectedColor": "#686155",
+    "list": [
+        {
+            "pagePath": "pages/index/index",
+            "iconPath": "images/ask.png",
+            "selectedIconPath": "images/ask_brown.png"
+        },
+        {
+            "pagePath": "pages/game/game",
+            "iconPath": "images/game.png",
+            "selectedIconPath": "images/game_brown.png"
+        }
+    ]
+},
+"sitemapLocation": "sitemap.json"
+}

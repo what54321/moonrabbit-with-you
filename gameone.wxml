@@ -1,0 +1,22 @@
+<view class="back">
+<image class="bg" src="../../images/gamegroundone.jpg"></image>
+<image class="yt" src="../../images/5.png"></image>
+<image class="ytsele" src="../../images/{{moonrabbitselect}}.png"></image>
+</view>
+<view class="result">
+<text wx:if="{{!isdraw&&!isfail&&!iswin}}">进行中...</text>
+<text wx:if="{{isdraw}}">平局！</text>
+<text wx:if="{{isfail}}">你输啦！</text>
+<text wx:if="{{iswin}}">你赢啦！</text>
+</view>
+<view class="list">
+<image class="shitou" src="../../images/shitou.png" bindtap="selectshitou"></image>
+<image class="jiandao" src="../../images/jiandao.png" bindtap="selectjiandao"></image>
+<image class="bu" src="../../images/bu.png" bindtap="selectbu"></image>
+</view>
+
+
+
+
+
+

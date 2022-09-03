@@ -1,0 +1,12 @@
+<view class="game">
+<image class="bg" src="../../images/gamecab.jpg"></image>
+<image class="gameone" src="../../images/game1.png"bindtap="goTogameone"></image>
+<image class="gametwo" src="../../images/game2.png"bindtap="goTogametwo"></image>
+<image class="yt" src="../../images/yuetugame.png"></image>
+</view>
+
+
+
+
+
+

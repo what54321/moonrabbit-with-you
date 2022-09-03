@@ -1,0 +1,21 @@
+<view class="index">
+<image class="bg" src="../../images/background.jpg"></image>
+<image class="bgmim" src="../../images/{{music}}.png" bindtap="playm"  wx:if="{{!onplay}}"></image>
+<image class="bgmim"  mode="aspectFit" animation="{{animation}}" src="../../images/{{music}}.png" bindtap="stopm" wx:if="{{onplay}}"></image>
+<image class="yt" src="../../images/{{ytzt}}.png" bindtap="getcare"></image>
+</view>
+
+<view class="answer">
+<image class="xx" src="../../images/{{kuang}}.png"></image>
+<view class="con">
+    <text>{{answer}}</text>
+</view>
+</view>
+
+<form>
+<view class="xiewenti">
+    <input type='text'placeholder='     告诉月兔你的问题吧!'></input>
+    <button form-type="reset" bindtap="getanswer">发送</button>
+</view>
+</form>
+
